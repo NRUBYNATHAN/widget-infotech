@@ -9,13 +9,7 @@
 .head_span {
   color: rgb(238, 24, 59);
 }
-.develop_con {
-  width: 290.14px;
-  height: 159px;
-  padding: 10px;
-  border: 2px solid gray;
-  border-radius: 10px;
-}
+
 .develop_h2 {
   margin: 0;
   margin-top: 5px;
@@ -49,4 +43,37 @@
 .dev_con1 {
   padding-left: 250px;
   margin-top: 80px;
+}
+.develop_con {
+  width: 290.14px;
+  height: 159px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #060606;
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s;
+  overflow: hidden;
+}
+.develop_con:hover {
+  cursor: pointer;
+  color: white;
+}
+.develop_con:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  width: 120%;
+  height: 220%;
+  background-color: #060606;
+  border-radius: 50%;
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+.develop_con:hover:before {
+  top: -50%;
+  left: -10%;
 }

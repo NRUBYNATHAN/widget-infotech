@@ -28,7 +28,7 @@
   margin: 0;
 }
 .compo1_img1 {
-  background-color: rgb(191, 188, 188);
+  background-color: rgb(233, 231, 227);
   width: 165px;
   height: 165px;
   border-radius: 50%;
@@ -60,4 +60,33 @@
 }
 .compo1_imgs {
   height: 180px;
+}
+
+.compo1_img:hover {
+  cursor: pointer;
+  text-shadow: 0px 0px 20px #e9dfc7;
+  animation: icon-animation 0.7s infinite linear alternate;
+}
+.compo1_img1:hover {
+  cursor: pointer;
+  text-shadow: 0px 0px 20px #e9dfc7;
+  animation: icon-animation 0.7s infinite linear alternate;
+}
+.compo1_img2:hover {
+  cursor: pointer;
+  text-shadow: 0px 0px 20px #e9dfc7;
+  animation: icon-animation 0.7s infinite linear alternate;
+}
+.compo1_imgs:hover {
+  cursor: pointer;
+  text-shadow: 0px 0px 20px #e9dfc7;
+  animation: icon-animation 0.7s infinite linear alternate;
+}
+@keyframes icon-animation {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.2;
+  }
 }
