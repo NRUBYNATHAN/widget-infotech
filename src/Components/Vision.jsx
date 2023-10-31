@@ -5,10 +5,13 @@ function Vision() {
   return (
     <div className="vision">
       <div className="main_vision">
-        <img
-          className="vision_img"
-          src="https://img.freepik.com/free-vector/flat-people-business-training-illustration_23-2148921811.jpg"
-        />
+        <div className="vi_img">
+          <img
+            className="vision_img"
+            src="https://img.freepik.com/free-vector/flat-people-business-training-illustration_23-2148921811.jpg"
+          />
+        </div>
+
         <div>
           <h2 className="vision_head">
             We Develop Product That People Love to Use.
