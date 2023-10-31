@@ -21,11 +21,29 @@
   width: 531px;
   height: 93.018px;
 }
-.banner2_btn {
+/* .banner2_btn {
   padding: 20px;
   color: white;
   border-radius: 10px;
 
   border: 2px solid #fff;
   background: linear-gradient(64deg, #ff3e54 -2.44%, #16186d 90.97%);
+} */
+.banner2_btn {
+  background-color: rgb(153, 255, 0);
+  padding: 10px;
+  border-radius: 10px;
+  width: 204px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(8, 8, 8);
+  margin: 0;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.banner2_btn:hover {
+  background-color: rgb(0, 255, 153);
+  color: black;
 }
