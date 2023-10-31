@@ -1,0 +1,44 @@
+.reason {
+  width: 1140px;
+  height: 392.677px;
+  background-color: rgb(240, 66, 66);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.main_reason {
+  padding-left: 150px;
+  padding-right: 147px;
+}
+
+.reason_side {
+  background-color: white;
+  width: 407.653px;
+  height: 284.116px;
+  padding: 30px;
+  border-radius: 20px;
+}
+.reason_bot {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.reason_side_head {
+  font-size: 30px;
+}
+.reason_side_text {
+  font-size: 20px;
+}
+.reason_p {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.reason_h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}

@@ -1,0 +1,60 @@
+.vision_img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+.vision_head {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  width: 500px;
+  height: 100px;
+}
+.vision_desc {
+  width: 500px;
+  height: auto;
+}
+.vision_box {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 263px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+}
+.vision_boxs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.vision {
+  background-color: #f7f7f7;
+}
+.box_head {
+  margin: 0;
+  color: rgb(242, 76, 104);
+}
+.box_text {
+  margin: 0;
+}
+.main_vision {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding-left: 150px;
+  padding-bottom: 30px;
+  padding-right: 170px;
+}
+.vision_head {
+  margin: 0;
+  margin-top: 30px;
+}
+.vision_desc {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}

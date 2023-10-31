@@ -1,0 +1,57 @@
+.service_h1 {
+  width: 600px;
+
+  margin: 0;
+  font-size: 50px;
+  font-weight: 900;
+}
+.service_text {
+  font-size: 20px;
+  margin: 0;
+  width: 511px;
+  height: 48px;
+}
+.box1 {
+  width: 367px;
+  height: 189px;
+
+  background-color: #faeff0;
+  border-radius: 10px;
+
+  color: rgb(17, 16, 16);
+}
+.box12 {
+  width: 367px;
+  height: 189px;
+
+  background-color: rgb(234, 7, 7);
+  border-radius: 10px;
+
+  color: white;
+}
+.box_img {
+  width: 73px;
+  height: 69px;
+  object-fit: contain;
+}
+.box_con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.boxs {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+}
+.service {
+  margin-top: 40px;
+  padding-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}

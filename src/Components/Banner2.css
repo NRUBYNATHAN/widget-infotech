@@ -1,0 +1,31 @@
+.banner2 {
+  width: 100%;
+  height: 340px;
+  background-image: url("https://t4.ftcdn.net/jpg/04/41/59/09/360_F_441590967_3RrToA4APjnNIUFXTgm8YzAsb2TsoXbo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.banner2_main {
+  margin-top: 100px;
+  padding-left: 150px;
+  padding-right: 140px;
+}
+.banner2_head {
+  color: white;
+  width: 531px;
+  height: 93.018px;
+}
+.banner2_btn {
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+
+  border: 2px solid #fff;
+  background: linear-gradient(64deg, #ff3e54 -2.44%, #16186d 90.97%);
+}

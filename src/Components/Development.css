@@ -1,0 +1,52 @@
+.develop_head {
+  text-align: center;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.head_span {
+  color: rgb(238, 24, 59);
+}
+.develop_con {
+  width: 290.14px;
+  height: 159px;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+.develop_h2 {
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.develop_p {
+  margin: 0;
+}
+.cons {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.dev_con {
+  padding-left: 150px;
+}
+.li {
+  margin-left: 150px;
+  width: 1130.984px;
+  height: 2px;
+  background: #4a5568;
+  display: inline-block;
+}
+.tro {
+  width: 67.846px;
+  height: 95.532px;
+  position: relative;
+  top: 30px;
+  right: 30px;
+}
+.dev_con1 {
+  padding-left: 250px;
+  margin-top: 80px;
+}
