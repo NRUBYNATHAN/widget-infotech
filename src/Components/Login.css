@@ -1,46 +1,36 @@
 .login {
-  /* background-color: rgb(201, 248, 174);  */
-  height: 700px;
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-.login_form {
-  border-radius: 20px;
+  height: 400px;
   width: 300px;
-  background-color: aliceblue;
-  padding: 20px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 }
-.heading {
-  margin: 0;
-  margin-bottom: 5px;
-  color: blueviolet;
-}
-.btn {
-  margin-top: 10px;
-}
-.text {
-  font-size: 15px;
-}
-.re {
-  text-decoration: none;
-  color: brown;
-}
-.re:hover {
-  color: blueviolet;
-}
-.field {
-  margin-bottom: 15px;
-}
-
-.log {
+.main-login {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url("https://images.pexels.com/photos/1646753/pexels-photo-1646753.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.lo {
+  margin: 0;
+  color: white;
+}
+.input {
+  width: 300px;
 }
