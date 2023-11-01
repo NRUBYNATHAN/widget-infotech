@@ -6,7 +6,7 @@ function Navbar() {
   const navigate = useNavigate();
   const user = localStorage.getItem("login");
   const logout = async () => {
-    await localStorage.removeItem("login");
+    await localStorage.removeItem("token");
     navigate("/");
   };
   return (
